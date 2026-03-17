@@ -17,4 +17,5 @@ For offline viewing or specific zoom requirements, choose a format below:
 
 * **[Scalable Vector (SVG)](hyper-personalization-recommendation-engine.svg)** - Recommended for mobile & browser zooming.
 * **[High-Resolution Image (PNG)](hyper-personalization-recommendation-engine.png)** - 300 DPI static render.
-* **[Document Version (PDF)](hyper-personalization-recommendation-engine.pdf)** - Best for printing or architectural review. 
+* **[Document Version (PDF)](hyper-personalization-recommendation-engine.pdf)** - Best for printing or architectural review.
+* **[Download Technical Spec](./hyper-personalization-recommendation-engine.pdf)** 
