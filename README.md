@@ -5,5 +5,5 @@
 
 ### 1. Hyper-Personalization & Recommendation Engine
 * **View Project:** [Detailed Architecture & Documentation](./hyper-personalization-recommendation-engine/)
-### 2. Real-Time ML Inference & Marketing Optimization
-* **View Project:** [Detailed Architecture & Documentation](./real-time-ml-inference-and-marketing-optimization/)
+### 2. Real-Time ML Ingestion & Inference Framework
+* **View Project:** [Detailed Architecture & Documentation](./real-time-ml-ingestion-inference-framework/)
