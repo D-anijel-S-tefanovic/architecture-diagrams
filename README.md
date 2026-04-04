@@ -1,4 +1,4 @@
-# Hybrid Cloud & Cloud-Native Architecture Portfolio
+# Hybrid Cloud Architecture Portfolio
 
 
 ## 🏗️ Featured Projects
