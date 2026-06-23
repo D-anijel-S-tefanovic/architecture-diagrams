@@ -5,17 +5,60 @@
 **Solution:** 
 
 <p align="center">
-  <a href="hyper-personalization-recommendation-engine.svg" target="_blank">
-    <img src="hyper-personalization-recommendation-engine.svg" alt="System Architecture SVG" width="100%">
+  <a href="svg-images/plane-overview.svg" target="_blank">
+    <img src="svg-images/plane-overview.svg" alt="Overview Architecture SVG" width="100%">
   </a>
   <br>
-  <em>(Click image to open high-resolution SVG for infinite zoom)</em>
+  <em>(Click image to open high-resolution Overview Architecture SVG for infinite zoom)</em>
 </p>
 
 ---
 
 ### 📂 Technical Assets
 For offline viewing or specific zoom requirements, choose a format below:
+* **[Scalable Vector (SVG)](svg-images/plane-overview.svg)** - Recommended for mobile & browser zooming.
+* **[Document Version (PDF)](llm-data-control-plane.pdf)** - Recommended for printing and sequential reading.
 
-* **[Scalable Vector (SVG)](hyper-personalization-recommendation-engine.svg)** - Recommended for mobile & browser zooming.
-* **[Document Version (PDF)](llm-data-control-plane.pdf)** - Recommended for printing. 
+---
+
+### 🔍 Deep-Dive Subsystem Workflows
+
+<details>
+<summary><b>▶ High-Level Architecture Diagram 1: Enterprise Agentic Platform</b></summary>
+<br>
+<a href="svg-images/enterprise-agentic-platform.svg" target="_blank">
+  <img src="svg-images/enterprise-agentic-platform.svg" alt="Enterprise Agentic Platform Topology" width="100%">
+</a>
+</details>
+
+<details>
+<summary><b>▶ High-Level Architecture Diagram 2: AWS Compute & Storage Runtime - Custom MCP</b></summary>
+<br>
+<a href="svg-images/custom-mcp.svg" target="_blank">
+  <img src="svg-images/custom-mcp.svg" alt="AWS Compute and Model Context Protocol Runtime" width="100%">
+</a>
+</details>
+
+<details>
+<summary><b>▶ High-Level Architecture Diagram 3: CI/CD GitHub Actions Pipeline - Hybrid EKS Build & Deploy</b></summary>
+<br>
+<a href="svg-images/hybrid-eks-build-and-deploy.svg" target="_blank">
+  <img src="svg-images/hybrid-eks-build-and-deploy.svg" alt="Hybrid EKS Deployment Workflow" width="100%">
+</a>
+</details>
+
+<details>
+<summary><b>▶ High-Level Architecture Diagram 4: CI/CD GitHub Actions Pipeline - Upload YAML Files To S3</b></summary>
+<br>
+<a href="svg-images/upload-yaml-files-to-s3.svg" target="_blank">
+  <img src="svg-images/upload-yaml-files-to-s3.svg" alt="CI/CD Pipeline - Upload YAML Workflow" width="100%">
+</a>
+</details>
+
+<details>
+<summary><b>▶ High-Level Architecture Diagram 5: CI/CD GitHub Actions Pipeline - Provision S3</b></summary>
+<br>
+<a href="svg-images/provision-s3.svg" target="_blank">
+  <img src="svg-images/provision-s3.svg" alt="CI/CD Pipeline - Provision S3 Workflow" width="100%">
+</a>
+</details>
