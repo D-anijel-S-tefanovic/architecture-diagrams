@@ -1,8 +1,12 @@
 ### LLM Data Control Plane - Project Overview
 
-**Problem:** 
+**Problem:** Enterprise LLM workloads lacked precise data segmentation and boundary-enforcement mechanisms, creating severe data-spill risks where conversational models could inadvertently retrieve or surface unauthorized, highly regulated data across multi-tenant user sessions.
 
 **Solution:** 
+- Developed a stateless, Python MCP service deployed on AWS EKS/Fargate to maximize horizontal scalability and satisfy strict compliance by eliminating session-level data retention.
+- Validated the service via a successful pilot for a 350-person VP organization before embedding it into the core MCP Gateway of an enterprise agentic platform running on Red Hat OpenShift 4, mitigating data sovereignty risks corporation-wide.
+- Engineered this cross-platform integration by leveraging native Kubernetes primitives - utilizing custom operators for automated lifecycles, strict namespace isolation, and secure ingress routing - to enforce zero-trust network perimeters and ensure fault-tolerant request handling.
+- Designed a data-governance pipeline allowing dataset owners to publish declarative data access schemas via YAML to AWS S3, using OAuth 2.0 authentication to parse user context and dynamically enforce schema-level boundaries across Snowflake, Trino, and HDFS queries.
 
 <p align="center">
   <a href="svg-images/plane-overview.svg" target="_blank">
