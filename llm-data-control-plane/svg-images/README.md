@@ -1,23 +1,36 @@
 # 🚀 System Architecture
 
-![Intro Architecture](./images/01_intro.svg)
+![Intro Architecture](./svgimages/plane-overview.svg)
 
-## 🔍 Deep Dive Flowcharts
+## 🔍 Deep Dive 
 
 <details>
-<summary><b>▶ Click to view Chart 1: Ingestion Pipeline</b></summary>
+<summary><b>▶ Click to view High-Level Architecture Diagram 1: CI/CD GitHub Actions Pipeline - Provision S3</b></summary>
 <br>
-<img src="./images/02_flowchart_one.svg" alt="Ingestion Pipeline" width="100%">
+<img src="./svg-images/provision-s3.svg" alt="Ingestion Pipeline" width="100%">
 </details>
 
 <details>
-<summary><b>▶ Click to view Chart 2: Validation Engine</b></summary>
+<summary><b>▶ Click to view High-Level Architecture Diagram 2: CI/CD GitHub Actions Pipeline - Upload YAML Files To S3</b></summary>
 <br>
-<img src="./images/03_flowchart_two.svg" alt="Validation Engine" width="100%">
+<img src="./svg-images/upload-yaml-files-to-s3.svg" alt="Ingestion Pipeline" width="100%">
 </details>
 
 <details>
-<summary><b>▶ Click to view Chart 3: Event Distribution Layer</b></summary>
+<summary><b>▶ Click to view High-Level Architecture Diagram 3: CI/CD GitHub Actions Pipeline - Hybrid EKS Build & Deploy</b></summary>
 <br>
-<img src="./images/04_flowchart_three.svg" alt="Event Distribution Layer" width="100%">
-</details> 
+<img src="./svg-images/hybrid-eks-build-and-deploy.svg" alt="Ingestion Pipeline" width="100%">
+</details>
+
+<details>
+<summary><b>▶ Click to view High-Level Architecture Diagram 4: AWS Compute & Storage Runtime - Custom MCP</b></summary>
+<br>
+<img src="./svg-images/custom-mcp.svg" alt="Ingestion Pipeline" width="100%">
+</details>
+
+<details>
+<summary><b>▶ Click to view High-Level Architecture Diagram 5: Enterprise Agentic Platform</b></summary>
+<br>
+<img src="./svg-images/enterprise-agentic-platform.svg" alt="Ingestion Pipeline" width="100%">
+</details>
+
