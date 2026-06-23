@@ -3,8 +3,7 @@
 **Problem:** Public-facing web properties lacked the segmentation logic required to provide curated experiences for both prospects and existing
 clients, resulting in a generic user journey that limited conversion opportunities across a high-volume user base.
 
-**Solution:** 
-- Increased conversions by architecting a segmentation-aware recommendation engine, achieving a 63% New-to-Bank (NTB) conversion rate for key financial products.
+**Solution:** - Increased conversions by architecting a segmentation-aware recommendation engine, achieving a 63% New-to-Bank (NTB) conversion rate for key financial products.
 - Developed an automated AWS S3-to-ElastiCache (Redis OSS) data pipeline using AWS Glue (PySpark) and Apache Airflow to transform raw user signals into personalized content triggers.
 - Engineered a strictly type-safe, low-latency RESTful API using TypeScript to orchestrate delivery of curated offers based on unique user identifiers; utilized Dynatrace for full-stack observability and proactive bottleneck identification.
 - Implemented horizontal auto-scaling for containerized services on AWS EKS/Fargate alongside a zero-downtime deployment workflow to maintain performance across high-volume traffic.
