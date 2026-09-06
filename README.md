@@ -9,3 +9,6 @@
 * **View Project:** [Detailed Architecture & Documentation](./real-time-ml-ingestion-inference-framework/)
 ### 3. LLM Data Control Plane
 * **View Project:** [Detailed Architecture & Documentation](./llm-data-control-plane/)
+### 4. Platform Modernization Initiative
+* **View Project:** [Detailed Architecture & Documentation](./platform-modernization-initiative/)
+
