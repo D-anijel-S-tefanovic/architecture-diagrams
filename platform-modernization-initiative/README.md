@@ -16,4 +16,4 @@
 For offline viewing or specific zoom requirements, choose a format below:
 
 * **[Scalable Vector (SVG)](platform-modernization-initiative.svg)** - Recommended for mobile & browser zooming.
-* **[Document Version (PDF)]("platform-modernization-initiative.pdf)** - Recommended for printing. 
+* **[Document Version (PDF)](platform-modernization-initiative.pdf)** - Recommended for printing. 
